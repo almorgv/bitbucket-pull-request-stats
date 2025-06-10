@@ -1,6 +1,7 @@
 # bitbucket-pull-request-stats
 Get all pull requests approved by user in each repositiory of specified project
 
+```bash
 Usage: main.sh [OPTIONS]
 
 Configuration Options:
@@ -24,3 +25,4 @@ Examples:
 
   # Filter by date with custom config
   main.sh --username 'john.doe' --user-id '1234' --since '2024-06-01 00:00:00'
+```
